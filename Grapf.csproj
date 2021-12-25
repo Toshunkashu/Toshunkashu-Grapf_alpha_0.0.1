@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\001.png" />
+    <None Remove="image\add.png" />
+    <None Remove="image\close_enter.png" />
+    <None Remove="image\delete.png" />
+    <None Remove="image\draw.png" />
+    <None Remove="image\edit.png" />
+    <None Remove="image\hidden.png" />
+    <None Remove="image\hide.png" />
+    <None Remove="image\hide_list.png" />
+    <None Remove="image\max.png" />
+    <None Remove="image\min.png" />
+    <None Remove="image\open_point.png" />
+    <None Remove="image\save.png" />
+    <None Remove="image\sweeping.png" />
+    <None Remove="image\view.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Wpf" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\001.png" />
+    <Resource Include="image\add.png" />
+    <Resource Include="image\close_enter.png" />
+    <Resource Include="image\delete.png" />
+    <Resource Include="image\draw.png" />
+    <Resource Include="image\edit.png" />
+    <Resource Include="image\hidden.png" />
+    <Resource Include="image\hide.png" />
+    <Resource Include="image\hide_list.png" />
+    <Resource Include="image\max.png" />
+    <Resource Include="image\min.png" />
+    <Resource Include="image\open_point.png" />
+    <Resource Include="image\save.png" />
+    <Resource Include="image\sweeping.png" />
+    <Resource Include="image\view.png" />
+  </ItemGroup>
+
+</Project>
